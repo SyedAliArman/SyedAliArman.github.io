@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Syed Ali Arman | Data Analyst Portfolio</title>
+<style>
+:root{--bg:#F4F6F8;--surface:#FFF;--ink:#16202E;--muted:#4D5968;--line:#D7DDE4;--accent:#F2C811;--link:#0B4F9C;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151C;--surface:#182029;--ink:#EEF1F4;--muted:#A3AEBB;--line:#2F3A47;--link:#7DB6F5}}
+:root[data-theme="dark"]{--bg:#10151C;--surface:#182029;--ink:#EEF1F4;--muted:#A3AEBB;--line:#2F3A47;--link:#7DB6F5}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Iowan Old Style",Palatino,"Palatino Linotype",Georgia,serif;line-height:1.15;margin:0}
+header{padding:60px 0 38px;border-bottom:1px solid var(--line)}
+.header-container{display:flex;align-items:center;gap:30px}
+.profile-pic{width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid var(--accent);flex-shrink:0}
+h1{font-size:clamp(40px,8vw,66px);letter-spacing:-.02em}
+.role{font-size:clamp(18px,3vw,21px);margin:14px 0 22px;max-width:36em}
+.role mark{background:var(--accent);color:#16202E;padding:0 6px;border-radius:3px}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:9px 16px;border:1.5px solid var(--ink);border-radius:6px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#16202E}
+.btn:hover,.btn.primary:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+section{padding:42px 0;border-bottom:1px solid var(--line)}
+h2{font-size:30px;margin-bottom:20px}
+.about p{max-width:40em;font-size:17px;margin:0 0 14px}
+.bring{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:22px}
+.bring div{border-left:4px solid var(--accent);padding:2px 0 2px 14px}
+.bring strong{display:block}.bring span{color:var(--muted);font-size:15px}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:24px;margin-bottom:18px}
+h3{font-size:23px;margin-bottom:4px}
+.tools{color:var(--muted);font-size:14px;margin:0 0 16px}
+.pj{display:grid;grid-template-columns:140px 1fr;gap:14px 20px;margin:0 0 14px}
+.pj dt{font-weight:700}.pj dd{margin:0}
+.pj ul{margin:0;padding-left:20px}.pj li{margin-bottom:4px}
+.bars{margin:0 0 12px}
+.bars p{margin:10px 0 2px;font-weight:600;font-size:14px}
+.bar{display:grid;grid-template-columns:150px 1fr 54px;gap:10px;align-items:center;font-size:14px;margin:4px 0}
+.bar i{display:block;height:10px;background:var(--line);border-radius:5px;position:relative;overflow:hidden}
+.bar i::after{content:"";position:absolute;inset:0 auto 0 0;width:calc(var(--v)*1%);background:var(--accent)}
+.bar b{text-align:right}
+.note{color:var(--muted);font-size:14px}
+.job h3{font-size:20px}.meta{color:var(--muted);margin:2px 0 10px;font-size:15px}
+.skills{display:grid;grid-template-columns:190px 1fr;gap:10px 22px;margin:0}
+.skills dt{font-weight:700}.skills dd{margin:0;color:var(--muted)}
+.edu{margin:0 0 14px}.edu strong{display:block}
+footer{padding:36px 0 56px}
+@media (max-width:640px){
+  .header-container{flex-direction:column;align-items:flex-start;gap:18px}
+  .pj,.skills{grid-template-columns:1fr;gap:2px}
+  .pj dd,.skills dd{margin-bottom:12px}
+  .bar{grid-template-columns:105px 1fr 48px}
+  .proj{padding:18px}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="header-container">
+    <img src="profile.jpg" alt="Syed Ali Arman" class="profile-pic">
+    <div>
+      <h1>Syed Ali Arman</h1>
+      <p class="role">Data analyst who turns business data into <mark>clear answers and recommendations</mark>, using Power BI, SQL, Python, and Excel.</p>
+      <div class="links">
+        <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=syed12aliarman@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/syed-ali-arman-88a556250" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/SyedAliArman" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </div>
+</div></header>
+
+<main class="wrap">
+<section class="about" id="about">
+  <h2>About me</h2>
+  <p>I am a Computer Science graduate from Hamdard University, Karachi (CGPA 3.43), with a data analytics internship and the Google Data Analytics Professional Certificate behind me. I enjoy the part of analytics where messy data becomes a decision someone can act on.</p>
+  <p>My projects cover customers, employees, sales, and bookings. Each one follows the same steps: start with the business question, clean and model the data, write the measures, build the dashboard, and finish with findings and recommendations. I also build software, so I work comfortably with databases, APIs, and engineering teams.</p>
+  <p>I am looking for an entry-level role in data analytics, business intelligence, or IT at a bank or multinational company.</p>
+  <div class="bring">
+    <div><strong>Business-first analysis</strong><span>I begin with the question, not the chart.</span></div>
+    <div><strong>End-to-end Power BI</strong><span>Data cleaning, data models, DAX, dashboards.</span></div>
+    <div><strong>Technical range</strong><span>SQL, Python, Flask, REST APIs, and applied AI.</span></div>
+    <div><strong>Fast learner</strong><span>I pick up new tools on my own.</span></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <article class="proj">
+    <h3>Customer Churn Analytics Dashboard</h3>
+    <p class="tools">Power BI, DAX, Power Query. Telecom customer dataset, 6,687 customers.</p>
+    <dl class="pj">
+      <dt>Business question</dt><dd>Why are customers leaving, and which groups are most at risk?</dd>
+      <dt>What I built</dt><dd><ul>
+        <li>Loaded and cleaned the customer file in Power Query, then added age groups, contract categories, and data usage bands.</li>
+        <li>Wrote DAX measures for churn rate, churned customers, average service calls, and extra data and international charges.</li>
+        <li>Built a multi-page report: overview with churn reasons and a state map, churn by age, payment, and contract, extra charges, and insights.</li></ul></dd>
+      <dt>What I found</dt><dd>
+        <p><b>1,796 customers churned, a churn rate of 26.86%.</b></p>
+        <div class="bars"><p>Churn rate by contract type</p>
+          <div class="bar"><span>Month-to-month</span><i style="--v:46.3"></i><b>46.3%</b></div>
+          <div class="bar"><span>One year</span><i style="--v:11.3"></i><b>11.3%</b></div>
+          <div class="bar"><span>Two year</span><i style="--v:2.8"></i><b>2.8%</b></div>
+          <p>Churn rate by payment method</p>
+          <div class="bar"><span>Paper check</span><i style="--v:38"></i><b>38.0%</b></div>
+          <div class="bar"><span>Direct debit</span><i style="--v:34.5"></i><b>34.5%</b></div>
+          <div class="bar"><span>Credit card</span><i style="--v:14.5"></i><b>14.5%</b></div></div>
+        <ul><li>Customers who churned made 2.4 service calls on average, against 0.37 for customers who stayed.</li>
+        <li>Seniors churned at 38.5%, compared with 23.0% for customers under 30.</li>
+        <li>Competitors drove 805 of the 1,796 exits (45%), mostly through better offers and better devices.</li></ul></dd>
+      <dt>Recommendation</dt><dd>Move month-to-month customers to annual contracts with an incentive, and follow up quickly with customers who call support repeatedly.</dd>
+    </dl>
+    <a href="https://github.com/SyedAliArman/Churn-Rate" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+  </article>
+
+  <article class="proj">
+    <h3>HR Analytics Dashboard (Atlas Lab)</h3>
+    <p class="tools">Power BI, DAX, Power Query, star schema data model. 1,470 employees.</p>
+    <dl class="pj">
+      <dt>Business question</dt><dd>Who is leaving the company, when, and what do those employees have in common?</dd>
+      <dt>What I built</dt><dd><ul>
+        <li>A star schema with an employee table, a performance review fact table (6,709 reviews, 2013 to 2022), rating and education lookup tables, and a date table.</li>
+        <li>DAX measures for attrition rate, active and inactive employees, average salary, attrition by hire date (using inactive relationships), and the next review date.</li>
+        <li>Four report pages: Overview, Demographics, Performance Tracker (with an employee selector), and Attrition.</li></ul></dd>
+      <dt>What I found</dt><dd>
+        <p><b>237 of 1,470 employees left, an attrition rate of 16.1%.</b></p>
+        <div class="bars"><p>Attrition rate by overtime</p>
+          <div class="bar"><span>Works overtime</span><i style="--v:30.5"></i><b>30.5%</b></div>
+          <div class="bar"><span>No overtime</span><i style="--v:10.4"></i><b>10.4%</b></div>
+          <p>Attrition rate by time at the company</p>
+          <div class="bar"><span>Under 1 year</span><i style="--v:31.6"></i><b>31.6%</b></div>
+          <div class="bar"><span>1 to 2 years</span><i style="--v:28.6"></i><b>28.6%</b></div>
+          <div class="bar"><span>3 to 5 years</span><i style="--v:15.1"></i><b>15.1%</b></div>
+          <div class="bar"><span>6 to 10 years</span><i style="--v:5.5"></i><b>5.5%</b></div></div>
+        <ul><li>Frequent travellers left at 24.9%, against 8.0% for people who do not travel.</li>
+        <li>Sales Representatives had the highest attrition of any role, at 39.8%.</li></ul></dd>
+      <dt>Recommendation</dt><dd>Focus retention on new joiners in their first two years and review overtime and travel load in the Sales team.</dd>
+    </dl>
+    <a href="https://github.com/SyedAliArman/HR-Analytics" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+  </article>
+
+  <article class="proj">
+    <h3>Sales Performance Dashboard</h3>
+    <p class="tools">Power BI, Excel, DAX, Power Query</p>
+    <dl class="pj">
+      <dt>Business question</dt><dd>How are sales performing across customers, products, and regions?</dd>
+      <dt>What I built</dt><dd><ul>
+        <li>Prepared the data with Power Query transformations in Power BI and Excel.</li>
+        <li>Wrote DAX measures for the sales KPIs.</li>
+        <li>An interactive dashboard covering KPI analysis, customer insights, product performance, and regional sales.</li></ul></dd>
+    </dl>
+    <a href="https://github.com/SyedAliArman/Sales-Performance-Dashboard" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+  </article>
+
+  <article class="proj">
+    <h3>Hotel Booking Cancellation Analysis</h3>
+    <p class="tools">Excel: pivot tables, charts, slicers. 119,390 bookings from a city hotel and a resort hotel, 2015 to 2017.</p>
+    <dl class="pj">
+      <dt>Business question</dt><dd>Which bookings are most likely to be cancelled, and why?</dd>
+      <dt>What I built</dt><dd><ul>
+        <li>Prepared the booking data (17 fields) and grouped guests into couples, families, and singles.</li>
+        <li>Added a room status field that shows whether the guest got the room they reserved.</li>
+        <li>An Excel dashboard with pivot tables, charts, and slicers.</li></ul></dd>
+      <dt>What I found</dt><dd>
+        <p><b>44,224 bookings were cancelled, 37.0% of the total.</b></p>
+        <div class="bars"><p>Cancellation rate by hotel</p>
+          <div class="bar"><span>City Hotel</span><i style="--v:41.7"></i><b>41.7%</b></div>
+          <div class="bar"><span>Resort Hotel</span><i style="--v:27.8"></i><b>27.8%</b></div>
+          <p>Cancellation rate by guest type</p>
+          <div class="bar"><span>Couples</span><i style="--v:39.8"></i><b>39.8%</b></div>
+          <div class="bar"><span>Families</span><i style="--v:34.4"></i><b>34.4%</b></div>
+          <div class="bar"><span>Singles</span><i style="--v:29"></i><b>29.0%</b></div></div>
+        <ul><li>Guests from Portugal made 41% of all bookings and cancelled 56.6% of them.</li>
+        <li>June (41.5%) and April (40.8%) had the highest cancellation rates.</li></ul></dd>
+    </dl>
+    <a href="https://github.com/SyedAliArman/Hotel-Booking-Cancellation" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+  </article>
+
+  <article class="proj">
+    <h3>LibGenius: AI-Powered Library Management System</h3>
+    <p class="tools">Final year project, 2025 to 2026. Flutter, React.js, Flask, Supabase (PostgreSQL), LangChain, Google Gemini.</p>
+    <dl class="pj">
+      <dt>Goal</dt><dd>A library platform for students and admins, with AI book recommendations and automated administration.</dd>
+      <dt>What I built</dt><dd><ul>
+        <li>A Flutter mobile app, a React.js web admin panel, and a Flask REST API on a Supabase (PostgreSQL) database.</li>
+        <li>AI book recommendations and query answering using Google Gemini 2.5 Flash Lite, LangChain, and Retrieval-Augmented Generation (RAG).</li>
+        <li>Automated fine management, admin account controls, Digital Rights Management (DRM), and Firebase push notifications.</li>
+        <li>Revised the system after a formal jury and compliance review.</li></ul></dd>
+    </dl>
+    <a href="https://github.com/SyedAliArman/LibGenius" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+  </article>
+  <p class="note">Figures are calculated from the datasets used in each project.</p>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="job"><h3>Data Analysis Intern, Elevvo Pathways</h3><p class="meta">Remote, 2025</p>
+    <ul>
+      <li>Collected, cleaned, and transformed business datasets with Excel and Python (Pandas) to improve data accuracy.</li>
+      <li>Ran exploratory data analysis and built visualizations in ggplot2, Matplotlib, and Power BI.</li>
+      <li>Built automated reports and dashboards in Excel and Power BI, contributing to a 15% improvement in operational efficiency.</li>
+    </ul></div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <dt>Analytics and BI</dt><dd>Power BI, DAX, Power Query, data modelling, Excel (pivot tables, dashboards), Tableau Public</dd>
+    <dt>Programming</dt><dd>Python (Pandas, Matplotlib), R (ggplot2), SQL, JavaScript, HTML, CSS</dd>
+    <dt>Development and AI</dt><dd>Flask, React.js, Flutter, Supabase (PostgreSQL), REST APIs, LangChain, RAG, Firebase, Git and GitHub</dd>
+  </dl>
+</section>
+
+<section id="education">
+  <h2>Education and certificates</h2>
+  <p class="edu"><strong>BS in Computer Science, Hamdard University</strong>2022 to 2026, CGPA 3.43</p>
+  <p class="edu"><strong>Google Data Analytics Professional Certificate, Coursera</strong>2025. Eight courses on data cleaning, visualization, and analysis with Excel, SQL, R, and Tableau.</p>
+  <p class="edu"><strong>Aptech Certificate</strong>2022. HTML, CSS, JavaScript, Bootstrap, and basic C.</p>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <h2>Get in touch</h2>
+  <p>I am open to entry-level roles in data analytics, business intelligence, and IT.</p>
+  <div class="links">
+    <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=syed12aliarman@gmail.com" target="_blank" rel="noopener noreferrer">syed12aliarman@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/syed-ali-arman-88a556250" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a class="btn" href="https://github.com/SyedAliArman" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </div>
+</div></footer>
+</body>
+</html>
